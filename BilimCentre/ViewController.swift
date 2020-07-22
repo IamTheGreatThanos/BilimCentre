@@ -1,20 +1,19 @@
-//
-//  ViewController.swift
-//  BilimCentre
-//
-//  Created by THANOS on 7/20/20.
-//  Copyright © 2020 XCode. All rights reserved.
-//
-
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+//        AF.request("http://jsonplaceholder.typicode.com/posts", method: .get, parameters: nil).responseJSON { response in
+//            let json = try? JSON(data: response.data!)
+//            if let body = json![0]["body"].string {
+//                print(body)
+//            }
+//        }
+        
     }
-
-
 }
 

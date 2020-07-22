@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B99307EBCA8C55F773E204A /* Pods_BilimCentre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669C2DA28A3EBC5F556A45E /* Pods_BilimCentre.framework */; };
 		88472C5324C5A08E00873241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5224C5A08E00873241 /* AppDelegate.swift */; };
 		88472C5524C5A08E00873241 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5424C5A08E00873241 /* SceneDelegate.swift */; };
 		88472C5724C5A08E00873241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5624C5A08E00873241 /* ViewController.swift */; };
@@ -14,9 +15,13 @@
 		88472C5D24C5A08E00873241 /* BilimCentre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5B24C5A08E00873241 /* BilimCentre.xcdatamodeld */; };
 		88472C5F24C5A09000873241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88472C5E24C5A09000873241 /* Assets.xcassets */; };
 		88472C6224C5A09000873241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88472C6024C5A09000873241 /* LaunchScreen.storyboard */; };
+		8887B33A24C7E23900DCB849 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887B33924C7E23900DCB849 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20ED92EBD248A50CE0E4BA88 /* Pods-BilimCentre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilimCentre.debug.xcconfig"; path = "Target Support Files/Pods-BilimCentre/Pods-BilimCentre.debug.xcconfig"; sourceTree = "<group>"; };
+		87E21C30C28298AA09D1D712 /* Pods-BilimCentre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilimCentre.release.xcconfig"; path = "Target Support Files/Pods-BilimCentre/Pods-BilimCentre.release.xcconfig"; sourceTree = "<group>"; };
+		88230BAB24C6BD1B00833278 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88472C4F24C5A08E00873241 /* BilimCentre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilimCentre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88472C5224C5A08E00873241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88472C5424C5A08E00873241 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,8 @@
 		88472C5E24C5A09000873241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88472C6124C5A09000873241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88472C6324C5A09000873241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8887B33924C7E23900DCB849 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9669C2DA28A3EBC5F556A45E /* Pods_BilimCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BilimCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B99307EBCA8C55F773E204A /* Pods_BilimCentre.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1B8E9E278C38149E270423 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88230BAB24C6BD1B00833278 /* Alamofire.framework */,
+				9669C2DA28A3EBC5F556A45E /* Pods_BilimCentre.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88472C4624C5A08D00873241 = {
 			isa = PBXGroup;
 			children = (
 				88472C5124C5A08E00873241 /* BilimCentre */,
 				88472C5024C5A08E00873241 /* Products */,
+				9CB37B42EE3EA994A5A15795 /* Pods */,
+				4D1B8E9E278C38149E270423 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +85,18 @@
 				88472C6024C5A09000873241 /* LaunchScreen.storyboard */,
 				88472C6324C5A09000873241 /* Info.plist */,
 				88472C5B24C5A08E00873241 /* BilimCentre.xcdatamodeld */,
+				8887B33924C7E23900DCB849 /* Extensions.swift */,
 			);
 			path = BilimCentre;
+			sourceTree = "<group>";
+		};
+		9CB37B42EE3EA994A5A15795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20ED92EBD248A50CE0E4BA88 /* Pods-BilimCentre.debug.xcconfig */,
+				87E21C30C28298AA09D1D712 /* Pods-BilimCentre.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88472C6624C5A09000873241 /* Build configuration list for PBXNativeTarget "BilimCentre" */;
 			buildPhases = (
+				39CE1691BD6AA9AEEA3438F5 /* [CP] Check Pods Manifest.lock */,
 				88472C4B24C5A08E00873241 /* Sources */,
 				88472C4C24C5A08E00873241 /* Frameworks */,
 				88472C4D24C5A08E00873241 /* Resources */,
+				D9215F694C0D4DAB67EF753A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,11 +167,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39CE1691BD6AA9AEEA3438F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BilimCentre-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9215F694C0D4DAB67EF753A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BilimCentre/Pods-BilimCentre-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BilimCentre/Pods-BilimCentre-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BilimCentre/Pods-BilimCentre-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88472C4B24C5A08E00873241 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8887B33A24C7E23900DCB849 /* Extensions.swift in Sources */,
 				88472C5724C5A08E00873241 /* ViewController.swift in Sources */,
 				88472C5324C5A08E00873241 /* AppDelegate.swift in Sources */,
 				88472C5D24C5A08E00873241 /* BilimCentre.xcdatamodeld in Sources */,
@@ -286,11 +360,13 @@
 		};
 		88472C6724C5A09000873241 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20ED92EBD248A50CE0E4BA88 /* Pods-BilimCentre.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F2R883U6;
 				INFOPLIST_FILE = BilimCentre/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,17 +374,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.XCode.BilimCentre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		88472C6824C5A09000873241 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E21C30C28298AA09D1D712 /* Pods-BilimCentre.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F2R883U6;
 				INFOPLIST_FILE = BilimCentre/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.XCode.BilimCentre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
