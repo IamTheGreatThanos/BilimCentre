@@ -8,29 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		6B99307EBCA8C55F773E204A /* Pods_BilimCentre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669C2DA28A3EBC5F556A45E /* Pods_BilimCentre.framework */; };
+		881511C824C8A86E002EBD60 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881511C724C8A86E002EBD60 /* SWRevealViewController.m */; };
+		881511CA24C8A9DE002EBD60 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881511C924C8A9DE002EBD60 /* SideBarTableViewController.swift */; };
+		881511CC24C8ABCD002EBD60 /* SideBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881511CB24C8ABCD002EBD60 /* SideBarController.swift */; };
 		88472C5324C5A08E00873241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5224C5A08E00873241 /* AppDelegate.swift */; };
-		88472C5524C5A08E00873241 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5424C5A08E00873241 /* SceneDelegate.swift */; };
 		88472C5724C5A08E00873241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5624C5A08E00873241 /* ViewController.swift */; };
 		88472C5A24C5A08E00873241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88472C5824C5A08E00873241 /* Main.storyboard */; };
 		88472C5D24C5A08E00873241 /* BilimCentre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5B24C5A08E00873241 /* BilimCentre.xcdatamodeld */; };
 		88472C5F24C5A09000873241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88472C5E24C5A09000873241 /* Assets.xcassets */; };
 		88472C6224C5A09000873241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88472C6024C5A09000873241 /* LaunchScreen.storyboard */; };
+		8885B0B124CC050A00E0489E /* PhoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0B024CC050A00E0489E /* PhoneController.swift */; };
+		8885B0B324CC056000E0489E /* ValidationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0B224CC056000E0489E /* ValidationController.swift */; };
+		8885B0B524CC059D00E0489E /* FeedBackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0B424CC059D00E0489E /* FeedBackController.swift */; };
+		8885B0B724CC05CC00E0489E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0B624CC05CC00E0489E /* ProfileController.swift */; };
+		8885B0B924CC063100E0489E /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0B824CC063100E0489E /* ResultController.swift */; };
+		8885B0BB24CC069000E0489E /* GraduatesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0BA24CC069000E0489E /* GraduatesController.swift */; };
+		8885B0BD24CC06F900E0489E /* StartTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0BC24CC06F900E0489E /* StartTestController.swift */; };
+		8885B0BF24CC071F00E0489E /* StartCoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0BE24CC071F00E0489E /* StartCoursesController.swift */; };
+		8885B0C124CC077100E0489E /* CheckTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0C024CC077100E0489E /* CheckTestController.swift */; };
+		8885B0C324CC079D00E0489E /* TestingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0C224CC079D00E0489E /* TestingController.swift */; };
 		8887B33A24C7E23900DCB849 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887B33924C7E23900DCB849 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20ED92EBD248A50CE0E4BA88 /* Pods-BilimCentre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilimCentre.debug.xcconfig"; path = "Target Support Files/Pods-BilimCentre/Pods-BilimCentre.debug.xcconfig"; sourceTree = "<group>"; };
 		87E21C30C28298AA09D1D712 /* Pods-BilimCentre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilimCentre.release.xcconfig"; path = "Target Support Files/Pods-BilimCentre/Pods-BilimCentre.release.xcconfig"; sourceTree = "<group>"; };
+		881511C524C8A86D002EBD60 /* BilimCentre-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BilimCentre-Bridging-Header.h"; sourceTree = "<group>"; };
+		881511C624C8A86E002EBD60 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Swift files/SideBar/SWRevealViewControllers/SWRevealViewController.h"; sourceTree = "<group>"; };
+		881511C724C8A86E002EBD60 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Swift files/SideBar/SWRevealViewControllers/SWRevealViewController.m"; sourceTree = "<group>"; };
+		881511C924C8A9DE002EBD60 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		881511CB24C8ABCD002EBD60 /* SideBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarController.swift; sourceTree = "<group>"; };
 		88230BAB24C6BD1B00833278 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88472C4F24C5A08E00873241 /* BilimCentre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilimCentre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88472C5224C5A08E00873241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88472C5424C5A08E00873241 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		88472C5624C5A08E00873241 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88472C5924C5A08E00873241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88472C5C24C5A08E00873241 /* BilimCentre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BilimCentre.xcdatamodel; sourceTree = "<group>"; };
 		88472C5E24C5A09000873241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88472C6124C5A09000873241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88472C6324C5A09000873241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8885B0B024CC050A00E0489E /* PhoneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneController.swift; sourceTree = "<group>"; };
+		8885B0B224CC056000E0489E /* ValidationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationController.swift; sourceTree = "<group>"; };
+		8885B0B424CC059D00E0489E /* FeedBackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackController.swift; sourceTree = "<group>"; };
+		8885B0B624CC05CC00E0489E /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		8885B0B824CC063100E0489E /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		8885B0BA24CC069000E0489E /* GraduatesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduatesController.swift; sourceTree = "<group>"; };
+		8885B0BC24CC06F900E0489E /* StartTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTestController.swift; sourceTree = "<group>"; };
+		8885B0BE24CC071F00E0489E /* StartCoursesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCoursesController.swift; sourceTree = "<group>"; };
+		8885B0C024CC077100E0489E /* CheckTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTestController.swift; sourceTree = "<group>"; };
+		8885B0C224CC079D00E0489E /* TestingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingController.swift; sourceTree = "<group>"; };
 		8887B33924C7E23900DCB849 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9669C2DA28A3EBC5F556A45E /* Pods_BilimCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BilimCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,6 +82,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		881511C424C8A83D002EBD60 /* SideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				881511C624C8A86E002EBD60 /* SWRevealViewController.h */,
+				881511C724C8A86E002EBD60 /* SWRevealViewController.m */,
+				881511C524C8A86D002EBD60 /* BilimCentre-Bridging-Header.h */,
+				881511C924C8A9DE002EBD60 /* SideBarTableViewController.swift */,
+				881511CB24C8ABCD002EBD60 /* SideBarController.swift */,
+			);
+			path = SideBarController;
+			sourceTree = "<group>";
+		};
 		88472C4624C5A08D00873241 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +115,8 @@
 		88472C5124C5A08E00873241 /* BilimCentre */ = {
 			isa = PBXGroup;
 			children = (
+				881511C424C8A83D002EBD60 /* SideBarController */,
 				88472C5224C5A08E00873241 /* AppDelegate.swift */,
-				88472C5424C5A08E00873241 /* SceneDelegate.swift */,
 				88472C5624C5A08E00873241 /* ViewController.swift */,
 				88472C5824C5A08E00873241 /* Main.storyboard */,
 				88472C5E24C5A09000873241 /* Assets.xcassets */,
@@ -86,6 +124,16 @@
 				88472C6324C5A09000873241 /* Info.plist */,
 				88472C5B24C5A08E00873241 /* BilimCentre.xcdatamodeld */,
 				8887B33924C7E23900DCB849 /* Extensions.swift */,
+				8885B0B024CC050A00E0489E /* PhoneController.swift */,
+				8885B0B224CC056000E0489E /* ValidationController.swift */,
+				8885B0B424CC059D00E0489E /* FeedBackController.swift */,
+				8885B0B624CC05CC00E0489E /* ProfileController.swift */,
+				8885B0B824CC063100E0489E /* ResultController.swift */,
+				8885B0BA24CC069000E0489E /* GraduatesController.swift */,
+				8885B0BC24CC06F900E0489E /* StartTestController.swift */,
+				8885B0BE24CC071F00E0489E /* StartCoursesController.swift */,
+				8885B0C024CC077100E0489E /* CheckTestController.swift */,
+				8885B0C224CC079D00E0489E /* TestingController.swift */,
 			);
 			path = BilimCentre;
 			sourceTree = "<group>";
@@ -133,6 +181,7 @@
 				TargetAttributes = {
 					88472C4E24C5A08E00873241 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -214,11 +263,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881511CC24C8ABCD002EBD60 /* SideBarController.swift in Sources */,
+				881511CA24C8A9DE002EBD60 /* SideBarTableViewController.swift in Sources */,
 				8887B33A24C7E23900DCB849 /* Extensions.swift in Sources */,
 				88472C5724C5A08E00873241 /* ViewController.swift in Sources */,
+				8885B0C324CC079D00E0489E /* TestingController.swift in Sources */,
 				88472C5324C5A08E00873241 /* AppDelegate.swift in Sources */,
+				8885B0B324CC056000E0489E /* ValidationController.swift in Sources */,
+				8885B0C124CC077100E0489E /* CheckTestController.swift in Sources */,
+				8885B0BB24CC069000E0489E /* GraduatesController.swift in Sources */,
+				8885B0B524CC059D00E0489E /* FeedBackController.swift in Sources */,
+				8885B0B724CC05CC00E0489E /* ProfileController.swift in Sources */,
+				8885B0BF24CC071F00E0489E /* StartCoursesController.swift in Sources */,
+				8885B0B924CC063100E0489E /* ResultController.swift in Sources */,
+				8885B0BD24CC06F900E0489E /* StartTestController.swift in Sources */,
 				88472C5D24C5A08E00873241 /* BilimCentre.xcdatamodeld in Sources */,
-				88472C5524C5A08E00873241 /* SceneDelegate.swift in Sources */,
+				8885B0B124CC050A00E0489E /* PhoneController.swift in Sources */,
+				881511C824C8A86E002EBD60 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,16 +424,19 @@
 			baseConfigurationReference = 20ED92EBD248A50CE0E4BA88 /* Pods-BilimCentre.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F2R883U6;
 				INFOPLIST_FILE = BilimCentre/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.XCode.BilimCentre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BilimCentre/SideBarController/BilimCentre-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -383,16 +447,18 @@
 			baseConfigurationReference = 87E21C30C28298AA09D1D712 /* Pods-BilimCentre.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F2R883U6;
 				INFOPLIST_FILE = BilimCentre/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.XCode.BilimCentre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BilimCentre/SideBarController/BilimCentre-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
