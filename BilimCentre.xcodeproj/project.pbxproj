@@ -28,6 +28,16 @@
 		8885B0C124CC077100E0489E /* CheckTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0C024CC077100E0489E /* CheckTestController.swift */; };
 		8885B0C324CC079D00E0489E /* TestingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0C224CC079D00E0489E /* TestingController.swift */; };
 		8887B33A24C7E23900DCB849 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887B33924C7E23900DCB849 /* Extensions.swift */; };
+		88BA666E24CD48BC00E53329 /* UniversitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA666D24CD48BC00E53329 /* UniversitiesController.swift */; };
+		88BA667024CD48DD00E53329 /* UniversitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA666F24CD48DD00E53329 /* UniversitiesTableViewCell.swift */; };
+		88BA667324CD4B6E00E53329 /* DesignOfViewWithCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA667224CD4B6E00E53329 /* DesignOfViewWithCR.swift */; };
+		88BA667524CD4B9100E53329 /* DesignOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA667424CD4B9100E53329 /* DesignOfView.swift */; };
+		88BA667824CD4E4800E53329 /* GrantsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA667724CD4E4800E53329 /* GrantsController.swift */; };
+		88BA667A24CD4E7900E53329 /* GrantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA667924CD4E7900E53329 /* GrantsTableViewCell.swift */; };
+		88BA667D24CD514C00E53329 /* SpecialtiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA667C24CD514C00E53329 /* SpecialtiesController.swift */; };
+		88BA667F24CD516300E53329 /* SpecialtiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA667E24CD516300E53329 /* SpecialtiesTableViewCell.swift */; };
+		88BA668224CD6FEF00E53329 /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA668124CD6FEF00E53329 /* CoursesController.swift */; };
+		88BA668424CD706500E53329 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA668324CD706500E53329 /* CoursesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +68,16 @@
 		8885B0C024CC077100E0489E /* CheckTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTestController.swift; sourceTree = "<group>"; };
 		8885B0C224CC079D00E0489E /* TestingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingController.swift; sourceTree = "<group>"; };
 		8887B33924C7E23900DCB849 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		88BA666D24CD48BC00E53329 /* UniversitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesController.swift; sourceTree = "<group>"; };
+		88BA666F24CD48DD00E53329 /* UniversitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesTableViewCell.swift; sourceTree = "<group>"; };
+		88BA667224CD4B6E00E53329 /* DesignOfViewWithCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignOfViewWithCR.swift; sourceTree = "<group>"; };
+		88BA667424CD4B9100E53329 /* DesignOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignOfView.swift; sourceTree = "<group>"; };
+		88BA667724CD4E4800E53329 /* GrantsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantsController.swift; sourceTree = "<group>"; };
+		88BA667924CD4E7900E53329 /* GrantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantsTableViewCell.swift; sourceTree = "<group>"; };
+		88BA667C24CD514C00E53329 /* SpecialtiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialtiesController.swift; sourceTree = "<group>"; };
+		88BA667E24CD516300E53329 /* SpecialtiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialtiesTableViewCell.swift; sourceTree = "<group>"; };
+		88BA668124CD6FEF00E53329 /* CoursesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesController.swift; sourceTree = "<group>"; };
+		88BA668324CD706500E53329 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
 		9669C2DA28A3EBC5F556A45E /* Pods_BilimCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BilimCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +135,11 @@
 		88472C5124C5A08E00873241 /* BilimCentre */ = {
 			isa = PBXGroup;
 			children = (
+				88BA668024CD6E9300E53329 /* Courses */,
+				88BA667B24CD513C00E53329 /* Specialties */,
+				88BA667624CD4E1900E53329 /* Grants */,
+				88BA667124CD4B5200E53329 /* Designs */,
+				88BA666C24CD488D00E53329 /* Universities */,
 				881511C424C8A83D002EBD60 /* SideBarController */,
 				88472C5224C5A08E00873241 /* AppDelegate.swift */,
 				88472C5624C5A08E00873241 /* ViewController.swift */,
@@ -136,6 +161,51 @@
 				8885B0C224CC079D00E0489E /* TestingController.swift */,
 			);
 			path = BilimCentre;
+			sourceTree = "<group>";
+		};
+		88BA666C24CD488D00E53329 /* Universities */ = {
+			isa = PBXGroup;
+			children = (
+				88BA666D24CD48BC00E53329 /* UniversitiesController.swift */,
+				88BA666F24CD48DD00E53329 /* UniversitiesTableViewCell.swift */,
+			);
+			path = Universities;
+			sourceTree = "<group>";
+		};
+		88BA667124CD4B5200E53329 /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				88BA667224CD4B6E00E53329 /* DesignOfViewWithCR.swift */,
+				88BA667424CD4B9100E53329 /* DesignOfView.swift */,
+			);
+			path = Designs;
+			sourceTree = "<group>";
+		};
+		88BA667624CD4E1900E53329 /* Grants */ = {
+			isa = PBXGroup;
+			children = (
+				88BA667724CD4E4800E53329 /* GrantsController.swift */,
+				88BA667924CD4E7900E53329 /* GrantsTableViewCell.swift */,
+			);
+			path = Grants;
+			sourceTree = "<group>";
+		};
+		88BA667B24CD513C00E53329 /* Specialties */ = {
+			isa = PBXGroup;
+			children = (
+				88BA667C24CD514C00E53329 /* SpecialtiesController.swift */,
+				88BA667E24CD516300E53329 /* SpecialtiesTableViewCell.swift */,
+			);
+			path = Specialties;
+			sourceTree = "<group>";
+		};
+		88BA668024CD6E9300E53329 /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				88BA668124CD6FEF00E53329 /* CoursesController.swift */,
+				88BA668324CD706500E53329 /* CoursesTableViewCell.swift */,
+			);
+			path = Courses;
 			sourceTree = "<group>";
 		};
 		9CB37B42EE3EA994A5A15795 /* Pods */ = {
@@ -265,21 +335,31 @@
 			files = (
 				881511CC24C8ABCD002EBD60 /* SideBarController.swift in Sources */,
 				881511CA24C8A9DE002EBD60 /* SideBarTableViewController.swift in Sources */,
+				88BA668224CD6FEF00E53329 /* CoursesController.swift in Sources */,
+				88BA667524CD4B9100E53329 /* DesignOfView.swift in Sources */,
 				8887B33A24C7E23900DCB849 /* Extensions.swift in Sources */,
 				88472C5724C5A08E00873241 /* ViewController.swift in Sources */,
 				8885B0C324CC079D00E0489E /* TestingController.swift in Sources */,
 				88472C5324C5A08E00873241 /* AppDelegate.swift in Sources */,
 				8885B0B324CC056000E0489E /* ValidationController.swift in Sources */,
+				88BA667D24CD514C00E53329 /* SpecialtiesController.swift in Sources */,
 				8885B0C124CC077100E0489E /* CheckTestController.swift in Sources */,
 				8885B0BB24CC069000E0489E /* GraduatesController.swift in Sources */,
 				8885B0B524CC059D00E0489E /* FeedBackController.swift in Sources */,
 				8885B0B724CC05CC00E0489E /* ProfileController.swift in Sources */,
 				8885B0BF24CC071F00E0489E /* StartCoursesController.swift in Sources */,
+				88BA667A24CD4E7900E53329 /* GrantsTableViewCell.swift in Sources */,
 				8885B0B924CC063100E0489E /* ResultController.swift in Sources */,
+				88BA667824CD4E4800E53329 /* GrantsController.swift in Sources */,
+				88BA666E24CD48BC00E53329 /* UniversitiesController.swift in Sources */,
 				8885B0BD24CC06F900E0489E /* StartTestController.swift in Sources */,
 				88472C5D24C5A08E00873241 /* BilimCentre.xcdatamodeld in Sources */,
+				88BA668424CD706500E53329 /* CoursesTableViewCell.swift in Sources */,
+				88BA667F24CD516300E53329 /* SpecialtiesTableViewCell.swift in Sources */,
 				8885B0B124CC050A00E0489E /* PhoneController.swift in Sources */,
 				881511C824C8A86E002EBD60 /* SWRevealViewController.m in Sources */,
+				88BA667324CD4B6E00E53329 /* DesignOfViewWithCR.swift in Sources */,
+				88BA667024CD48DD00E53329 /* UniversitiesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

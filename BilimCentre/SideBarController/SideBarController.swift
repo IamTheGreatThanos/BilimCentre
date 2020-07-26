@@ -31,7 +31,7 @@ class SideBarController: UIViewController {
     
     @IBAction func coursesButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier :"StartTestController")
+        let viewController = storyboard.instantiateViewController(withIdentifier :"CoursesController")
         self.present(viewController, animated: true)
     }
     
