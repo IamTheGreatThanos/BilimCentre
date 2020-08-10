@@ -30,12 +30,12 @@ class SideBarTableViewController: UITableViewController {
         }
         else if (indexPath.row == 3) {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let viewController = storyboard.instantiateViewController(withIdentifier :"ProfileController")
+            let viewController = storyboard.instantiateViewController(withIdentifier :"SettingsController")
             self.present(viewController, animated: true)
         }
         else if (indexPath.row == 4) {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let viewController = storyboard.instantiateViewController(withIdentifier :"ProfileController")
+            let viewController = storyboard.instantiateViewController(withIdentifier :"SWRevealViewController")
             self.present(viewController, animated: true)
         }
         else if (indexPath.row == 5) {

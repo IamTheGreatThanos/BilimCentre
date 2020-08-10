@@ -55,6 +55,8 @@ class ValidationController: UIViewController, UITextFieldDelegate  {
     }
     
     @IBAction func nextButton(_ sender: UIButton) {
+        let defaults = UserDefaults.standard
+        defaults.set(true, forKey: "isSignIn")
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier :"SWRevealViewController")
         self.present(viewController, animated: true)
