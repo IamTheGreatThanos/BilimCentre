@@ -1,10 +1,14 @@
 import UIKit
 import Foundation
+import Alamofire
+import SwiftyJSON
 
 class PhoneController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var phoneTextField: UITextField!
     @IBOutlet weak var nameTextField: UITextField!
+    
+    let defaults = UserDefaults.standard
     
     
     override func viewDidLoad() {
@@ -79,9 +83,25 @@ class PhoneController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func nextButton(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier :"ValidationController")
-        self.present(viewController, animated: true)
+        if phoneTextField.text!.count == 20 && nameTextField.text!.count > 3{
+            let number = phoneTextField.text![1..<2] + phoneTextField.text![4..<7] + phoneTextField.text![9..<12] + phoneTextField.text![14..<16] + phoneTextField.text![18..<20]
+            let parameters = ["phone" : String(number), "name" : nameTextField.text!]
+            AF.request(GlobalVariables.url + "users/phone/otp/", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: nil).responseJSON { response in
+                let json = try? JSON(data: response.data!)
+                if (json!["status"] == "ok") {
+                    self.defaults.set(String(number), forKey: "PhoneNumber")
+                    self.defaults.set(self.nameTextField.text!, forKey: "Name")
+                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    let viewController = storyboard.instantiateViewController(withIdentifier :"ValidationController")
+                    self.present(viewController, animated: true)
+                }
+            }
+        }
+        else{
+            let alert = UIAlertController(title: "Назар аудар!", message: "Аты-жөніңізді немесе нөміріңізді дұрыстаңыз.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "ОК", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        }
     }
     
 }

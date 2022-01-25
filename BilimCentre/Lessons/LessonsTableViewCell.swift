@@ -1,7 +1,10 @@
 import UIKit
 
 class LessonsTableViewCell: UITableViewCell {
-
+    
+    
+    @IBOutlet weak var lessonNum: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
 

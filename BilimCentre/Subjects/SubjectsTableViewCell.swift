@@ -1,7 +1,11 @@
 import UIKit
 
 class SubjectsTableViewCell: UITableViewCell {
-
+    
+    
+    @IBOutlet weak var subjectTitle: UILabel!
+    @IBOutlet weak var subjectIcon: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

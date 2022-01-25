@@ -4,7 +4,6 @@ class SpecialtiesTableViewCell: UITableViewCell {
     
     @IBOutlet weak var specialtyLabel: UILabel!
     @IBOutlet weak var firstLabel: UILabel!
-    @IBOutlet weak var secondLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

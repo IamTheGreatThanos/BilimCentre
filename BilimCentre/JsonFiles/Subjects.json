@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "mathematical_literacy": "Математикалық сауаттылық"
+  },
+  {
+    "id": 2,
+    "reading_literacy": "Оқу сауаттылығы"
+  },
+  {
+    "id": 3,
+    "history_of_kazakhstan": "Қазақстан тарихы"
+  },
+  {
+    "id": 4,
+    "physics": "Физика"
+  },
+  {
+    "id": 5,
+    "mathematics": "Математика"
+  },
+  {
+    "id": 6,
+    "biology": "Биология"
+  },
+  {
+    "id": 7,
+    "chemistry": "Химия"
+  },
+  {
+    "id": 8,
+    "world_history": "Дүниежүзі тарихы"
+  },
+  {
+    "id": 9,
+    "law": "Құқық"
+  },
+  {
+    "id": 10,
+    "geography": "География"
+  },
+  {
+    "id": 11,
+    "kazakh_language": "Қазақ тілі мен әдебиет"
+  },
+  {
+    "id": 13,
+    "russian_language": "Ағылшын тілі"
+  }
+]

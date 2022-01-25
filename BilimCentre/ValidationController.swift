@@ -1,9 +1,13 @@
 import UIKit
 import Foundation
+import Alamofire
+import SwiftyJSON
 
 class ValidationController: UIViewController, UITextFieldDelegate  {
     
     @IBOutlet weak var validateCodeTextField: UITextField!
+    
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,11 +59,27 @@ class ValidationController: UIViewController, UITextFieldDelegate  {
     }
     
     @IBAction func nextButton(_ sender: UIButton) {
-        let defaults = UserDefaults.standard
-        defaults.set(true, forKey: "isSignIn")
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier :"SWRevealViewController")
-        self.present(viewController, animated: true)
+        if validateCodeTextField.text!.count == 4 {
+            let number = defaults.string(forKey: "PhoneNumber")!
+            let parameters = ["phone" : String(number), "code" : validateCodeTextField.text!]
+            AF.request(GlobalVariables.url + "users/register/", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: nil).responseJSON { response in
+                let json = try? JSON(data: response.data!)
+                print(json)
+                if (json!["status"] == "ok") {
+                    self.defaults.set(json!["key"].string, forKey: "Token")
+                    self.defaults.set(String(json!["uid"].int!), forKey: "UID")
+                    self.defaults.set(true, forKey: "isSignIn")
+                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    let viewController = storyboard.instantiateViewController(withIdentifier :"SWRevealViewController")
+                    self.present(viewController, animated: true)
+                }
+            }
+        }
+        else{
+            let alert = UIAlertController(title: "Назар аудар!", message: "Код дұрыс емес.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "ОК", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        }
     }
     
 }

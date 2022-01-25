@@ -1,0 +1,68 @@
+[
+  {
+    "specialty_name": "6B01 Педагогические науки",
+    "all_grants": 6718,
+    "full_training": 5713,
+    "abbreviated_training": 1005
+  },
+  {
+    "specialty_name": "6B02 Искусство и гуманитарные науки",
+    "all_grants": 1510,
+    "full_training": 1355,
+    "abbreviated_training": 155
+  },
+  {
+    "specialty_name": "6B03 Социальные науки, журналистика и информация",
+    "all_grants": 809,
+    "full_training": 784,
+    "abbreviated_training": 25
+  },
+  {
+    "specialty_name": "6B04 Бизнес, управление и право",
+    "all_grants": 914,
+    "full_training": 914,
+    "abbreviated_training": 0
+  },
+  {
+    "specialty_name": "6B05 Естественные науки, математика и статистика",
+    "all_grants": 3822,
+    "full_training": 3712,
+    "abbreviated_training": 110
+  },
+  {
+    "specialty_name": "6B06 Информационно-коммуникационные технологии",
+    "all_grants": 3568,
+    "full_training": 3318,
+    "abbreviated_training": 250
+  },
+  {
+    "specialty_name": "6B07 Инженерные, обрабатывающие и строительные отрасли",
+    "all_grants": 13727,
+    "full_training": 13022,
+    "abbreviated_training": 705
+  },
+  {
+    "specialty_name": "6B08 Сельское хозяйство и биоресурсы",
+    "all_grants": 1462,
+    "full_training": 882,
+    "abbreviated_training": 580
+  },
+  {
+    "specialty_name": "6B09 Ветеринария",
+    "all_grants": 772,
+    "full_training": 722,
+    "abbreviated_training": 50
+  },
+  {
+    "specialty_name": "6B10 Здравоохранение",
+    "all_grants": 2524,
+    "full_training": 2524,
+    "abbreviated_training": 0
+  },
+  {
+    "specialty_name": "6B11 Услуги",
+    "all_grants": 2057,
+    "full_training": 1907,
+    "abbreviated_training": 150
+  }
+]

@@ -8,15 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		6B99307EBCA8C55F773E204A /* Pods_BilimCentre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669C2DA28A3EBC5F556A45E /* Pods_BilimCentre.framework */; };
+		8809DF1024E66440000D307A /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8809DF0F24E66440000D307A /* EditProfileController.swift */; };
 		881511C824C8A86E002EBD60 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881511C724C8A86E002EBD60 /* SWRevealViewController.m */; };
 		881511CA24C8A9DE002EBD60 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881511C924C8A9DE002EBD60 /* SideBarTableViewController.swift */; };
 		881511CC24C8ABCD002EBD60 /* SideBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881511CB24C8ABCD002EBD60 /* SideBarController.swift */; };
+		88443BD724E7D20200AABF80 /* UserDefaultsKeys in Resources */ = {isa = PBXBuildFile; fileRef = 88443BD624E7D20200AABF80 /* UserDefaultsKeys */; };
+		88443BD924E7D2EA00AABF80 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88443BD824E7D2EA00AABF80 /* WelcomeController.swift */; };
 		88472C5324C5A08E00873241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5224C5A08E00873241 /* AppDelegate.swift */; };
 		88472C5724C5A08E00873241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5624C5A08E00873241 /* ViewController.swift */; };
 		88472C5A24C5A08E00873241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88472C5824C5A08E00873241 /* Main.storyboard */; };
 		88472C5D24C5A08E00873241 /* BilimCentre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88472C5B24C5A08E00873241 /* BilimCentre.xcdatamodeld */; };
 		88472C5F24C5A09000873241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88472C5E24C5A09000873241 /* Assets.xcassets */; };
 		88472C6224C5A09000873241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88472C6024C5A09000873241 /* LaunchScreen.storyboard */; };
+		884ACA1C24E64FFD002CD746 /* TestAnswersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884ACA1B24E64FFD002CD746 /* TestAnswersController.swift */; };
+		884ACA1E24E65036002CD746 /* TestAnswersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884ACA1D24E65036002CD746 /* TestAnswersTableViewCell.swift */; };
+		884B87F524E3CE7D00035B1F /* Grants.json in Resources */ = {isa = PBXBuildFile; fileRef = 884B87F124E3CE7C00035B1F /* Grants.json */; };
+		884B87F624E3CE7D00035B1F /* Subjects.json in Resources */ = {isa = PBXBuildFile; fileRef = 884B87F224E3CE7C00035B1F /* Subjects.json */; };
+		884B87F824E3CE7D00035B1F /* Universities.json in Resources */ = {isa = PBXBuildFile; fileRef = 884B87F424E3CE7D00035B1F /* Universities.json */; };
+		88545CFB251DF0C10090A177 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88545CFA251DF0C10090A177 /* GlobalVariables.swift */; };
+		88787A7E24E5199E00823A30 /* Specialties.json in Resources */ = {isa = PBXBuildFile; fileRef = 88787A7D24E5199D00823A30 /* Specialties.json */; };
+		88787A8024E52FC500823A30 /* PastTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88787A7F24E52FC500823A30 /* PastTestController.swift */; };
 		8885B0B124CC050A00E0489E /* PhoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0B024CC050A00E0489E /* PhoneController.swift */; };
 		8885B0B324CC056000E0489E /* ValidationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0B224CC056000E0489E /* ValidationController.swift */; };
 		8885B0B524CC059D00E0489E /* FeedBackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0B424CC059D00E0489E /* FeedBackController.swift */; };
@@ -28,6 +39,7 @@
 		8885B0C124CC077100E0489E /* CheckTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0C024CC077100E0489E /* CheckTestController.swift */; };
 		8885B0C324CC079D00E0489E /* TestingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885B0C224CC079D00E0489E /* TestingController.swift */; };
 		8887B33A24C7E23900DCB849 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887B33924C7E23900DCB849 /* Extensions.swift */; };
+		88B808DA251CA1470024C908 /* SendQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B808D9251CA1470024C908 /* SendQuestionController.swift */; };
 		88BA666E24CD48BC00E53329 /* UniversitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA666D24CD48BC00E53329 /* UniversitiesController.swift */; };
 		88BA667024CD48DD00E53329 /* UniversitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA666F24CD48DD00E53329 /* UniversitiesTableViewCell.swift */; };
 		88BA667324CD4B6E00E53329 /* DesignOfViewWithCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA667224CD4B6E00E53329 /* DesignOfViewWithCR.swift */; };
@@ -52,12 +64,15 @@
 /* Begin PBXFileReference section */
 		20ED92EBD248A50CE0E4BA88 /* Pods-BilimCentre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilimCentre.debug.xcconfig"; path = "Target Support Files/Pods-BilimCentre/Pods-BilimCentre.debug.xcconfig"; sourceTree = "<group>"; };
 		87E21C30C28298AA09D1D712 /* Pods-BilimCentre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilimCentre.release.xcconfig"; path = "Target Support Files/Pods-BilimCentre/Pods-BilimCentre.release.xcconfig"; sourceTree = "<group>"; };
+		8809DF0F24E66440000D307A /* EditProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
 		881511C524C8A86D002EBD60 /* BilimCentre-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BilimCentre-Bridging-Header.h"; sourceTree = "<group>"; };
 		881511C624C8A86E002EBD60 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Swift files/SideBar/SWRevealViewControllers/SWRevealViewController.h"; sourceTree = "<group>"; };
 		881511C724C8A86E002EBD60 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Swift files/SideBar/SWRevealViewControllers/SWRevealViewController.m"; sourceTree = "<group>"; };
 		881511C924C8A9DE002EBD60 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
 		881511CB24C8ABCD002EBD60 /* SideBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarController.swift; sourceTree = "<group>"; };
 		88230BAB24C6BD1B00833278 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88443BD624E7D20200AABF80 /* UserDefaultsKeys */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserDefaultsKeys; sourceTree = "<group>"; };
+		88443BD824E7D2EA00AABF80 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		88472C4F24C5A08E00873241 /* BilimCentre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilimCentre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88472C5224C5A08E00873241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88472C5624C5A08E00873241 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +81,14 @@
 		88472C5E24C5A09000873241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88472C6124C5A09000873241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88472C6324C5A09000873241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884ACA1B24E64FFD002CD746 /* TestAnswersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnswersController.swift; sourceTree = "<group>"; };
+		884ACA1D24E65036002CD746 /* TestAnswersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnswersTableViewCell.swift; sourceTree = "<group>"; };
+		884B87F124E3CE7C00035B1F /* Grants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Grants.json; sourceTree = "<group>"; };
+		884B87F224E3CE7C00035B1F /* Subjects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Subjects.json; sourceTree = "<group>"; };
+		884B87F424E3CE7D00035B1F /* Universities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Universities.json; sourceTree = "<group>"; };
+		88545CFA251DF0C10090A177 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		88787A7D24E5199D00823A30 /* Specialties.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Specialties.json; sourceTree = "<group>"; };
+		88787A7F24E52FC500823A30 /* PastTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastTestController.swift; sourceTree = "<group>"; };
 		8885B0B024CC050A00E0489E /* PhoneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneController.swift; sourceTree = "<group>"; };
 		8885B0B224CC056000E0489E /* ValidationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationController.swift; sourceTree = "<group>"; };
 		8885B0B424CC059D00E0489E /* FeedBackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackController.swift; sourceTree = "<group>"; };
@@ -77,6 +100,7 @@
 		8885B0C024CC077100E0489E /* CheckTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTestController.swift; sourceTree = "<group>"; };
 		8885B0C224CC079D00E0489E /* TestingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingController.swift; sourceTree = "<group>"; };
 		8887B33924C7E23900DCB849 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		88B808D9251CA1470024C908 /* SendQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendQuestionController.swift; sourceTree = "<group>"; };
 		88BA666D24CD48BC00E53329 /* UniversitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesController.swift; sourceTree = "<group>"; };
 		88BA666F24CD48DD00E53329 /* UniversitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesTableViewCell.swift; sourceTree = "<group>"; };
 		88BA667224CD4B6E00E53329 /* DesignOfViewWithCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignOfViewWithCR.swift; sourceTree = "<group>"; };
@@ -153,6 +177,8 @@
 		88472C5124C5A08E00873241 /* BilimCentre */ = {
 			isa = PBXGroup;
 			children = (
+				884ACA1A24E64FE1002CD746 /* TestAnswers */,
+				884B87F024E3CE6600035B1F /* JsonFiles */,
 				88C0B18824E166500098F06E /* Classes */,
 				88C0B18124E162230098F06E /* Lessons */,
 				88C0B17C24E161D70098F06E /* Subjects */,
@@ -182,8 +208,34 @@
 				8885B0C024CC077100E0489E /* CheckTestController.swift */,
 				8885B0C224CC079D00E0489E /* TestingController.swift */,
 				88C0B17524E11BCF0098F06E /* SettingsController.swift */,
+				88787A7F24E52FC500823A30 /* PastTestController.swift */,
+				8809DF0F24E66440000D307A /* EditProfileController.swift */,
+				88443BD624E7D20200AABF80 /* UserDefaultsKeys */,
+				88443BD824E7D2EA00AABF80 /* WelcomeController.swift */,
+				88B808D9251CA1470024C908 /* SendQuestionController.swift */,
+				88545CFA251DF0C10090A177 /* GlobalVariables.swift */,
 			);
 			path = BilimCentre;
+			sourceTree = "<group>";
+		};
+		884ACA1A24E64FE1002CD746 /* TestAnswers */ = {
+			isa = PBXGroup;
+			children = (
+				884ACA1B24E64FFD002CD746 /* TestAnswersController.swift */,
+				884ACA1D24E65036002CD746 /* TestAnswersTableViewCell.swift */,
+			);
+			path = TestAnswers;
+			sourceTree = "<group>";
+		};
+		884B87F024E3CE6600035B1F /* JsonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				884B87F124E3CE7C00035B1F /* Grants.json */,
+				884B87F224E3CE7C00035B1F /* Subjects.json */,
+				88787A7D24E5199D00823A30 /* Specialties.json */,
+				884B87F424E3CE7D00035B1F /* Universities.json */,
+			);
+			path = JsonFiles;
 			sourceTree = "<group>";
 		};
 		88BA666C24CD488D00E53329 /* Universities */ = {
@@ -337,8 +389,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88787A7E24E5199E00823A30 /* Specialties.json in Resources */,
 				88472C6224C5A09000873241 /* LaunchScreen.storyboard in Resources */,
 				88472C5F24C5A09000873241 /* Assets.xcassets in Resources */,
+				88443BD724E7D20200AABF80 /* UserDefaultsKeys in Resources */,
+				884B87F824E3CE7D00035B1F /* Universities.json in Resources */,
+				884B87F524E3CE7D00035B1F /* Grants.json in Resources */,
+				884B87F624E3CE7D00035B1F /* Subjects.json in Resources */,
 				88472C5A24C5A08E00873241 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,11 +450,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				881511CC24C8ABCD002EBD60 /* SideBarController.swift in Sources */,
+				8809DF1024E66440000D307A /* EditProfileController.swift in Sources */,
 				881511CA24C8A9DE002EBD60 /* SideBarTableViewController.swift in Sources */,
 				88BA668224CD6FEF00E53329 /* CoursesController.swift in Sources */,
 				88BA667524CD4B9100E53329 /* DesignOfView.swift in Sources */,
 				8887B33A24C7E23900DCB849 /* Extensions.swift in Sources */,
 				88C0B18524E1624F0098F06E /* LessonsTableViewCell.swift in Sources */,
+				88B808DA251CA1470024C908 /* SendQuestionController.swift in Sources */,
 				88472C5724C5A08E00873241 /* ViewController.swift in Sources */,
 				8885B0C324CC079D00E0489E /* TestingController.swift in Sources */,
 				88472C5324C5A08E00873241 /* AppDelegate.swift in Sources */,
@@ -416,18 +475,23 @@
 				88BA666E24CD48BC00E53329 /* UniversitiesController.swift in Sources */,
 				88C0B18724E165860098F06E /* ClassesController.swift in Sources */,
 				8885B0BD24CC06F900E0489E /* StartTestController.swift in Sources */,
+				88443BD924E7D2EA00AABF80 /* WelcomeController.swift in Sources */,
 				88472C5D24C5A08E00873241 /* BilimCentre.xcdatamodeld in Sources */,
+				88787A8024E52FC500823A30 /* PastTestController.swift in Sources */,
 				88BA668424CD706500E53329 /* CoursesTableViewCell.swift in Sources */,
 				88C0B17824E124060098F06E /* HistoryController.swift in Sources */,
 				88BA667F24CD516300E53329 /* SpecialtiesTableViewCell.swift in Sources */,
 				88C0B17B24E124820098F06E /* HistoryTableViewCell.swift in Sources */,
 				8885B0B124CC050A00E0489E /* PhoneController.swift in Sources */,
 				88C0B18324E1623F0098F06E /* LessonsController.swift in Sources */,
+				884ACA1E24E65036002CD746 /* TestAnswersTableViewCell.swift in Sources */,
 				88C0B17624E11BCF0098F06E /* SettingsController.swift in Sources */,
+				884ACA1C24E64FFD002CD746 /* TestAnswersController.swift in Sources */,
 				88C0B18024E1621E0098F06E /* SubjectsTableViewCell.swift in Sources */,
 				881511C824C8A86E002EBD60 /* SWRevealViewController.m in Sources */,
 				88BA667324CD4B6E00E53329 /* DesignOfViewWithCR.swift in Sources */,
 				88BA667024CD48DD00E53329 /* UniversitiesTableViewCell.swift in Sources */,
+				88545CFB251DF0C10090A177 /* GlobalVariables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,16 +637,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25F2R883U6;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 47NXUHN5L9;
 				INFOPLIST_FILE = BilimCentre/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.XCode.BilimCentre;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kz.BilimCentre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = BilimCentreProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "BilimCentre/SideBarController/BilimCentre-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -596,16 +664,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25F2R883U6;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 47NXUHN5L9;
 				INFOPLIST_FILE = BilimCentre/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.XCode.BilimCentre;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kz.BilimCentre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = BilimCentreProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "BilimCentre/SideBarController/BilimCentre-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

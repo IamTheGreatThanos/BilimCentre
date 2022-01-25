@@ -4,7 +4,6 @@ import Foundation
 class GraduatesController: UIViewController {
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

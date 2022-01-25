@@ -1,7 +1,12 @@
 import UIKit
 
 class ClassesTableViewCell: UITableViewCell {
-
+    
+    
+    @IBOutlet weak var imageBG: UIImageView!
+    @IBOutlet weak var classOf: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
